@@ -6,5 +6,8 @@
     box-sizing: border-box;
 }
 .card{
-    background: linear-gradient(left, #ffffff to #ffffff00);
+    background: linear-gradient( to right, white , transparent);
+}
+.card:nth-child(2n){
+    background: linear-gradient( to left, white , transparent);
 }
