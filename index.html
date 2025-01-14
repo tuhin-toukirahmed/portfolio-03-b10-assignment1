@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/Group.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@latest/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title> Personal portfolio | 03</title>
+</head>
+
+<body>
+    <header>
+        <div class="navbar bg-base-100 w-[1600px] mx-auto shadow-sm">
+            <div class="flex-1">
+                <a class="pl-4 font-bold text-xl">The Developer</a>
+            </div>
+            <div class="flex gap-2">
+
+
+                <a href="./assets/sample.pdf" download="download cv" class="download-button">
+                    <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-md">Download CV</button>
+                </a>
+
+                <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto" />
+                <div class="dropdown dropdown-end">
+                    <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
+                        <div class="w-10 rounded-full">
+                            <img alt="Tailwind CSS Navbar component" src="./assets/Group.png" />
+                        </div>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                        <li>
+                            <a class="justify-between">
+                                Profile
+                                <span class="badge">New</span>
+                            </a>
+                        </li>
+                        <li><a>Settings</a></li>
+                        <li><a>Logout</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div
+            class="hero bg-[url(./assets/Hero-bg.png)] w-[1600px] mx-auto h-[700px] flex flex-col justify-center items-center rounded-[10px]   gap-5">
+            <img src="./assets/Group.png" alt="">
+            <div class="hero-info flex flex-col items-center text-center gap-5">
+                <h1 class="text-5xl font-extrabold text-[#0D1321]">"In the near future, I hope to <br> become a
+                    Developer."</h1>
+                <p class="text-[1rem]"> lorem sum dolor sit amet consectetur, adipisicing elit. Saepe sed expedita, consequatur ut
+                    praesentium cumque eius! Error quis consectetur quasi optio numquam impedit veniam commodi vero
+                    dolore quo cumque, omnis fugit ipsam earum eligendi molestias, necessitatibus maiores dolor autem.
+                    Cupiditate quisquam quaerat laboriosam, aliquid quibusdamn vitae omnis modi voluptate, laborum
+                    quidem ad alias nulla!</p>
+            </div>
+            <button class="btn btn-active btn-neutral mt-5">Hire Me</button>
+        </div>
+    </header>
+    <main class="w-[1600px] mx-auto bg-[#0D132112] flex flex-col items-center justify-center my-[30px] rounded-[1rem] p-3">
+        <h1 class="font-extrabold text-3xl">Why Web Development??</h1>
+        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat eveniet quasi veniam sunt  distinctio ipsam quia nam ex delectus labore ullam, in aliquam eligendi voluptates!</p>
+        <div class="card flex flex-row my-[2rem] gap-[2rem] w-[1500px] border-2 ">
+            <div class="card-info w-2/3 flex flex-col px-[2rem]   justify-center gap-4 bg-gradient-to-l ">
+                <h1 class="font-extrabold text-2xl">I will do Coding and Change the World</h1>
+                <p class="w-2/3 text-">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis excepturi nemo incidunt nam velit natus repudiandae corrupti vel magnam qui.</p>
+                <button class="btn w-[150px]">Learn More</button>
+            </div>
+            <img src="./assets/Group 3.png" alt="">
+        </div>
+        <div class="card"></div>
+        <div class="card"></div>
+    </main>
+</body>
+
+</html>
