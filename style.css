@@ -5,14 +5,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-.card{
-    /* background: linear-gradient( to right, white , transparent); */
-    background: transparent;
-}
-.card:nth-child(2n){
-    /* background: linear-gradient( to left, white , transparent); */
-    
-}
+
 .support .background-img{
     background-image: url(./assets/handshake.jpg);
     background-repeat: no-repeat;
@@ -25,3 +18,11 @@
     
 }
 
+main .card:hover{
+    transform: scale(1.02);
+    transition: ease-out all 0.5s;
+}
+.target-box:hover{
+    transform: scale(1.02);
+    transition: ease-out all 0.5s;
+}
