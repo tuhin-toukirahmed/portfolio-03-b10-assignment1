@@ -6,8 +6,22 @@
     box-sizing: border-box;
 }
 .card{
-    background: linear-gradient( to right, white , transparent);
+    /* background: linear-gradient( to right, white , transparent); */
+    background: transparent;
 }
 .card:nth-child(2n){
-    background: linear-gradient( to left, white , transparent);
+    /* background: linear-gradient( to left, white , transparent); */
+    
 }
+.support .background-img{
+    background-image: url(./assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    filter: blur(3px);
+    
+}
+
